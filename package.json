@@ -1,0 +1,16 @@
+{
+  "name": "gos",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "ts": "tsc -w",
+    "dev": "nodemon lib/test",
+    "cjs": "tsc --outDir dist",
+    "esm": "tsc --outDir dist"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.6"
+  }
+}
